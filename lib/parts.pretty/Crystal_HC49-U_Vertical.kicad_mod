@@ -1,0 +1,232 @@
+(footprint "Crystal_HC49-U_Vertical"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "HC-49/U, Crystal, http://5hertz.com/pdfs/04404_D.pdf")
+	(property "Reference" "REF**"
+		(at 2.44 -3.52 0)
+		(layer "F.SilkS")
+		(uuid "3b37eec7-f985-4837-ba54-224b6c0787f0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "8MHz"
+		(at 2.44 3.52 0)
+		(layer "F.Fab")
+		(uuid "08a6519c-e2a0-4741-ab64-e5c94d2bdc6d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "~"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e7030c92-f1c0-4f62-9f21-02324bb03223")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Two pin crystal"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bd9eecdb-28c1-4944-a07c-61303f432dfd")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "StockID" "C5649598"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a6fcb543-7d71-4cbc-84b5-c53c1d1cdd06")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -0.685 -2.435)
+		(end 5.565 -2.435)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9d5edf73-8b7c-4f31-9c62-6b12e4c4af14")
+	)
+	(fp_line
+		(start 5.565 2.435)
+		(end -0.685 2.435)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0d49e70c-b343-474c-b49a-0ea475c24661")
+	)
+	(fp_arc
+		(start -0.685 2.435)
+		(mid -3.12 0)
+		(end -0.685 -2.435)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ee708362-9b3d-4e5b-88b6-728f8fc0450e")
+	)
+	(fp_arc
+		(start 5.565 -2.435)
+		(mid 8 0)
+		(end 5.565 2.435)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d4361785-6e71-46f6-b3f5-3f0aa580ff93")
+	)
+	(fp_line
+		(start -0.68 -2.83)
+		(end 5.56 -2.83)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b0749b98-4879-4f39-ba90-8ea50bbba116")
+	)
+	(fp_line
+		(start 5.56 2.83)
+		(end -0.68 2.83)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6c824fc8-0b5c-4526-90b2-357aa58d4be4")
+	)
+	(fp_arc
+		(start -0.68 2.83)
+		(mid -3.51 0)
+		(end -0.68 -2.83)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "86d5f152-e843-4f15-aa6e-bdb6d6c845b2")
+	)
+	(fp_arc
+		(start 5.56 -2.83)
+		(mid 8.39 0)
+		(end 5.56 2.83)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "753d1951-1b32-4238-9c1d-568490c4cbfa")
+	)
+	(fp_line
+		(start -0.685 -2.325)
+		(end 5.565 -2.325)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c16d77e6-4a74-4592-8ba5-1f9f7e43e9e9")
+	)
+	(fp_line
+		(start 5.565 2.325)
+		(end -0.685 2.325)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "beb13a84-57f9-4ddf-ab38-03a1f53f2c1f")
+	)
+	(fp_arc
+		(start -0.685 2.325)
+		(mid -3.01 0)
+		(end -0.685 -2.325)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "db6387a5-e988-4451-a690-9030919c5146")
+	)
+	(fp_arc
+		(start 5.565 -2.325)
+		(mid 7.89 0)
+		(end 5.565 2.325)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "75e8eb21-9b88-44ee-ab83-17e6319b7d3c")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 2.44 0 0)
+		(layer "F.Fab")
+		(uuid "136545ad-f5b4-469a-bbbb-ea7be58da9b6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.5 1.5)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e00eb9c4-e758-4cd5-ae8e-ae54978e0975")
+	)
+	(pad "2" thru_hole circle
+		(at 4.88 0)
+		(size 1.5 1.5)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "94157c48-52ab-4207-ac73-177577fea705")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Crystal.3dshapes/Crystal_HC49-4H_Vertical.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

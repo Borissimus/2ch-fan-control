@@ -1,0 +1,115 @@
+(footprint "CDRH4D28"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -4 -0.05 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "7af4118e-db92-46d4-bf78-ac688bd5c8dc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "CDRH4D28 -10u"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "a28bd6bc-5840-42ce-bd9d-412205d6c5e5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "~"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "32a0c73b-5926-4eb5-b1ea-860a251723db")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Inductor"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9b5bcd37-b8ff-409c-a71e-b8ad28a0493e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -3 -3)
+		(end 3 3)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "91b1b090-0a63-460c-a8d9-144ccd767a6d")
+	)
+	(fp_rect
+		(start -3.2 -3.2)
+		(end 3.2 3.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "e450c7b7-5b48-4bff-a81e-6a26cd155dfc")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "e18ea888-5bff-4312-9216-d4e6b9b9d28b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 0 -1.7)
+		(size 5.3 1.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ffd8a402-8178-4816-a37e-e0cb79f78916")
+	)
+	(pad "2" smd rect
+		(at 0 1.7)
+		(size 5.3 1.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "947e30e3-4503-4a99-967e-8fb0bea81ede")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/lib/3d/User Library-CDRH4D28-2.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
